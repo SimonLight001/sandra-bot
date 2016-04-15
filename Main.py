@@ -2,10 +2,7 @@ import tweepy
 import random
 from time import sleep
 
-consumer_key = 'ykNuS2eXB1I6YPqvwNOEbmG7f'
-consumer_secret = '0668iH2ewPUEjLJLBlZVaWj324Zc6mLLPcAl7ubqo24iRxe9cg'
-access_token = '717360575190286337-TLZ9RlsZbAQcPI2KkdNeE4NSgvB72Ep'
-access_token_secret = 'zP8jbOED9bp45mc088LG7QLqofcDP3GMcKFUzq0JJG8Z8'
+//input all keys here
 
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
